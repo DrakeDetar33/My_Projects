@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="3xDxAesthetics Calorie Calculator" HorizontalAlignment="Left" Height="31" Margin="292,22,0,0" VerticalAlignment="Top" Width="214"/>
+        <Label Content="Height (in.)" HorizontalAlignment="Left" Height="26" Margin="22,63,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label Content="Weight (lbs.)" HorizontalAlignment="Left" Height="25" Margin="22,105,0,0" VerticalAlignment="Top" Width="85"/>
+        <Label Content="Age" HorizontalAlignment="Left" Height="33" Margin="22,150,0,0" VerticalAlignment="Top" Width="58"/>
+        <RadioButton Content="Male" HorizontalAlignment="Left" Height="27" Margin="136,214,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Height="30" Margin="22,223,0,0" VerticalAlignment="Top" Width="85"/>
+        <RadioButton Content="Female" HorizontalAlignment="Left" Height="27" Margin="136,246,0,0" VerticalAlignment="Top" Width="101"/>
+
     </Grid>
 </Window>
