@@ -1,0 +1,7 @@
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\Calorie_Calculator\bin\Debug\Calorie_Calculator.exe.config
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\Calorie_Calculator\bin\Debug\Calorie_Calculator.exe
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\Calorie_Calculator\bin\Debug\Calorie_Calculator.pdb
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\Calorie_Calculator\obj\Debug\Calorie_Calculator.csprojAssemblyReference.cache
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\Calorie_Calculator\obj\Debug\Calorie_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\Calorie_Calculator\obj\Debug\Calorie_Calculator.exe
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\Calorie_Calculator\obj\Debug\Calorie_Calculator.pdb
