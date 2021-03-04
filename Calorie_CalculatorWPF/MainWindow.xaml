@@ -11,9 +11,17 @@
         <Label Content="Height (in.)" HorizontalAlignment="Left" Height="26" Margin="22,63,0,0" VerticalAlignment="Top" Width="73"/>
         <Label Content="Weight (lbs.)" HorizontalAlignment="Left" Height="25" Margin="22,105,0,0" VerticalAlignment="Top" Width="85"/>
         <Label Content="Age" HorizontalAlignment="Left" Height="33" Margin="22,150,0,0" VerticalAlignment="Top" Width="58"/>
-        <RadioButton Content="Male" HorizontalAlignment="Left" Height="27" Margin="136,214,0,0" VerticalAlignment="Top" Width="90"/>
-        <Label Content="Gender" HorizontalAlignment="Left" Height="30" Margin="22,223,0,0" VerticalAlignment="Top" Width="85"/>
-        <RadioButton Content="Female" HorizontalAlignment="Left" Height="27" Margin="136,246,0,0" VerticalAlignment="Top" Width="101"/>
+        <RadioButton x:Name="MaleRadioButton" Content="Male" HorizontalAlignment="Left" Height="27" Margin="156,195,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Height="30" Margin="22,195,0,0" VerticalAlignment="Top" Width="85"/>
+        <RadioButton x:Name="FemaleRadioButton" Content="Female" HorizontalAlignment="Left" Height="27" Margin="156,227,0,0" VerticalAlignment="Top" Width="101"/>
+        <TextBox x:Name="HeightInput" HorizontalAlignment="Left" Height="23" Margin="154,67,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="WeightInput" HorizontalAlignment="Left" Height="23" Margin="154,109,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="SubmitButton" Content="Submit" HorizontalAlignment="Left" Margin="46,363,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="AgeInput" HorizontalAlignment="Left" Height="23" Margin="154,150,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="OutputBox" HorizontalAlignment="Left" Height="266" Margin="439,67,0,0" VerticalAlignment="Top" Width="313"/>
+        <Label Content="Activity Level" HorizontalAlignment="Left" Margin="22,264,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="ActivityLevel" HorizontalAlignment="Left" Height="23" Margin="154,267,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="182,363,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>

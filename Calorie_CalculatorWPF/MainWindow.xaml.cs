@@ -25,6 +25,14 @@ namespace Calorie_CalculatorWPF
             InitializeComponent();
         }
 
+        List<CalculatorWPF> calculator = new List<CalculatorWPF>();
 
+        private void SubmitButton_Click(object sender, RoutedEventArgs a)
+        {
+            HeightInput.Clear();
+            WeightInput.Clear();
+            AgeInput.Clear();
+            ActivityLevel.Clear();
+        }
     }
 }
