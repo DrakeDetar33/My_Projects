@@ -26,7 +26,7 @@ namespace Calorie_CalculatorWPF
             Gender = "";
         }
 
-        public CalculatorWPF(double height, double weight, int age, int activityLevel, string gender)
+        public string printCalculation(double height, double weight, int age, double activityLevel, string gender)
         {
             Height = height;
             Weight = weight;
@@ -50,7 +50,7 @@ namespace Calorie_CalculatorWPF
                     break;
             }
 
-            if (Gender == "male")
+            if (Gender.ToLower() == "male")
             {
                 BMR = 66 + (6.3 * Weight) + (12.9 * Height) - (6.8 * Age);
                 CalorieIntake = BMR * ActivityLevel;
@@ -62,6 +62,9 @@ namespace Calorie_CalculatorWPF
                 CalorieIntake = BMR * ActivityLevel;
                 Console.WriteLine($"Your daily caloric intake is {CalorieIntake} calories");
             }
+
+            string s = "s";
+            return s;
         }
     }
 }

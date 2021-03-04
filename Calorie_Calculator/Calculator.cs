@@ -51,13 +51,13 @@ namespace Calorie_Calculator
                     break;
             }
 
-            if (Gender == "male")
+            if (Gender.ToLower() == "male")
             {
                 BMR = 66 + (6.3 * Weight) + (12.9 * Height) - (6.8 * Age);
                 CalorieIntake = BMR * ActivityLevel;
                 Console.WriteLine($"Your daily caloric intake is {CalorieIntake} calories");
             }
-            else
+            else if (Gender.ToLower() == "female")
             {
                 BMR = 655 + (4.3 * weight) + (4.7 * height) - (4.7 * age);
                 CalorieIntake = BMR * ActivityLevel;

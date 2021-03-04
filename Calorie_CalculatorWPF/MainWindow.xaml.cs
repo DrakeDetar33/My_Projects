@@ -24,15 +24,38 @@ namespace Calorie_CalculatorWPF
         {
             InitializeComponent();
         }
-
+        // List of objects I created
         List<CalculatorWPF> calculator = new List<CalculatorWPF>();
-
+        // Submit button method
         private void SubmitButton_Click(object sender, RoutedEventArgs a)
         {
             HeightInput.Clear();
             WeightInput.Clear();
             AgeInput.Clear();
             ActivityLevel.Clear();
+
+            // New Instance of c class
+            CalculatorWPF c = new CalculatorWPF();
+
+            double.TryParse(HeightInput.Text, out double Height);
+            c.Height = Height;
+            int.TryParse(WeightInput.Text, out int weight);
+            c.Weight = weight;
+            int.TryParse(AgeInput.Text, out int age);
+            c.Age = age;
+            int.TryParse(ActivityLevel.Text, out int activity_lvl);
+            c.ActivityLevel = activity_lvl;
+            if (MaleRadioButton.IsChecked == true)
+            {
+                c.Gender = "Male";
+            }
+            else if (FemaleRadioButton.IsChecked == true)
+            {
+                c.Gender = "Female";
+            }
+
+            string s = c.printCalculation();
+            Console.WriteLine(s);
         }
     }
 }
