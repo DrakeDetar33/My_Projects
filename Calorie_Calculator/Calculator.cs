@@ -15,9 +15,9 @@ namespace Calorie_Calculator
         public double ActivityLevel { get; set; }
         public string Gender { get; set; }
 
-        double BMR = 0;
+        public double BMR = 0;
 
-        double CalorieIntake=0;
+        public double CalorieIntake=0;
         public Calculator()
         {
             Height = 0;
