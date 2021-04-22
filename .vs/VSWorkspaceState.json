@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Calorie_Calculator",
+    "\\Calorie_CalculatorWPF",
+    "\\Calorie_Calculator_WPF"
   ],
-  "SelectedNode": "\\Calorie_Calculator.sln",
+  "SelectedNode": "\\Calorie_Calculator\\Calorie_Calculator.sln",
   "PreviewInSolutionExplorer": false
 }

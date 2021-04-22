@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,7 +26,7 @@ namespace Calorie_CalculatorWPF
             Gender = "";
         }
 
-        public string printCalculation(double height, double weight, int age, double activityLevel, string gender)
+        public CalculatorWPF(double height, double weight, int age, double activityLevel, string gender)
         {
             Height = height;
             Weight = weight;
@@ -63,7 +63,11 @@ namespace Calorie_CalculatorWPF
                 Console.WriteLine($"Your daily caloric intake is {CalorieIntake} calories");
             }
 
-            string s = "s";
+            
+        }
+        public string OutputResult()
+        {
+            string s = $"Your daily caloric intake is {CalorieIntake}";
             return s;
         }
     }

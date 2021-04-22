@@ -27,12 +27,8 @@ namespace Calorie_CalculatorWPF
         // List of objects I created
         List<CalculatorWPF> calculator = new List<CalculatorWPF>();
         // Submit button method
-        private void SubmitButton_Click(object sender, RoutedEventArgs a)
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            HeightInput.Clear();
-            WeightInput.Clear();
-            AgeInput.Clear();
-            ActivityLevel.Clear();
 
             // New Instance of c class
             CalculatorWPF c = new CalculatorWPF();
@@ -54,8 +50,16 @@ namespace Calorie_CalculatorWPF
                 c.Gender = "Female";
             }
 
-            string s = c.printCalculation();
-            Console.WriteLine(s);
+            
+            calculator.Add(c);
+            string s = c.OutputResult();
+            OutputBox.Items.Add(s);
+
+            HeightInput.Clear();
+            WeightInput.Clear();
+            AgeInput.Clear();
+            ActivityLevel.Clear();
+
         }
     }
 }

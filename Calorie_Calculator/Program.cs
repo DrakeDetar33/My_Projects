@@ -11,7 +11,7 @@ namespace Calorie_Calculator
         static void Main(string[] args)
         {
             //Intro
-            Console.WriteLine("What the fuck is up! The purpose of this program is \n   to help you " +
+            Console.WriteLine("What is up! The purpose of this program is \n   to help you " +
                 "determine how many calories you should \n  be eating to reach your aesthetic goals " +
                 "based on \n    your current lifestyle. I intend to make it more clear than the \n  calculators" +
                 " you can find on the internet!");
