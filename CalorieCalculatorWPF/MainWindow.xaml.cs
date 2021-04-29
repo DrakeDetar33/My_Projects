@@ -28,6 +28,7 @@ namespace CalorieCalculatorWPF
 
         private void S_Button(object sender, RoutedEventArgs e)
         {
+            // Variables
             int height = Convert.ToInt32(HeightInput.Text);
             int weight = Convert.ToInt32(WeightInput.Text);
             int age = Convert.ToInt32(AgeInput.Text);
@@ -37,6 +38,7 @@ namespace CalorieCalculatorWPF
             double caloric_intake = 0;
             double weightGoal = 0;
 
+            // Gender Radio button if Statements
             if (Convert.ToBoolean(MaleRB.IsChecked))
             {
                 genderBMR = 5;
@@ -45,13 +47,7 @@ namespace CalorieCalculatorWPF
             {
                 genderBMR = -161;
             }
-            switch (activityLevel)
-            {
-                default:
-                    break;
-            }
-            BMR = (4.536 * weight) + (15.88 * height) - (5 * age) + genderBMR;
-
+            // Activity level if statements
             if (Convert.ToBoolean(Intake1.IsChecked))
             {
                 activityLevel = 1.2;
@@ -68,7 +64,7 @@ namespace CalorieCalculatorWPF
             {
                 activityLevel = 1.9;
             }
-
+            // Goals for weight if statements
             if (Convert.ToBoolean(Lose.IsChecked))
             {
                 weightGoal = -150;
@@ -82,7 +78,11 @@ namespace CalorieCalculatorWPF
                 weightGoal = 150;
             }
 
+            // Calculations
+            BMR = (4.536 * weight) + (15.88 * height) - (5 * age) + genderBMR;
             caloric_intake = BMR * activityLevel + weightGoal;
+
+            // Output
             OutputBox.Text = $"Your daily caloric intake is {Convert.ToString(caloric_intake)}";
             
             
