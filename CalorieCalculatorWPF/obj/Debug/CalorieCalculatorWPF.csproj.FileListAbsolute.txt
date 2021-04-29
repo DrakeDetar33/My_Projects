@@ -1,0 +1,15 @@
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\bin\Debug\CalorieCalculatorWPF.exe.config
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\bin\Debug\CalorieCalculatorWPF.exe
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\bin\Debug\CalorieCalculatorWPF.pdb
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF.csprojAssemblyReference.cache
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\App.g.cs
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF_MarkupCompile.cache
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF_MarkupCompile.lref
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\MainWindow.baml
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF.g.resources
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF.Properties.Resources.resources
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF.csproj.GenerateResource.cache
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF.csproj.CoreCompileInputs.cache
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF.exe
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\CalorieCalculatorWPF\obj\Debug\CalorieCalculatorWPF.pdb
