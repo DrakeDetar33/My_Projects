@@ -5,25 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalorieCalculatorWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="3xDxAesthetics MacroNutrient And Calorie Calculator" Height="450" Width="800">
     <Grid>
 
-        <TextBox x:Name="HeightInput" HorizontalAlignment="Left" Height="23" Margin="186,53,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <Label Content="Height (in.)" HorizontalAlignment="Left" Margin="80,53,0,0" VerticalAlignment="Top"/>
-        <Label Content="Weight (lbs.)" HorizontalAlignment="Left" Margin="80,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.046,-0.029"/>
-        <TextBox x:Name="WeightInput" HorizontalAlignment="Left" Height="23" Margin="186,99,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <Label Content="Gender" HorizontalAlignment="Left" Margin="80,144,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.263,-0.154"/>
-        <RadioButton GroupName="GenderRB" x:Name="MaleRB" Content="Male" HorizontalAlignment="Left" Margin="186,150,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="GenderRB" x:Name="FemaleRB"  Content="Female" HorizontalAlignment="Left" Margin="236,150,0,0" VerticalAlignment="Top"/>
-        <Label Content="Age" HorizontalAlignment="Left" Margin="80,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.145,-0.346"/>
-        <TextBox x:Name="AgeInput" HorizontalAlignment="Left" Height="24" Margin="186,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Activity Level" HorizontalAlignment="Left" Margin="73,225,0,0" VerticalAlignment="Top"/>
-        <Button Content="Submit" Click="S_Button"  HorizontalAlignment="Left" Margin="197,358,0,0" VerticalAlignment="Top" Width="75"/>
-        <RadioButton GroupName="ActivityGroup" x:Name="Intake1" Content="If you are sedentary (little or no exercise)" HorizontalAlignment="Left" Margin="197,225,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="ActivityGroup" x:Name="Intake2" Content="If you are lightly active (light exercise or sports 1-3 days/week)" HorizontalAlignment="Left" Margin="197,255,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="ActivityGroup" x:Name="Intake3" Content="If you are moderately active (moderate exercise 3-5 days/week)" HorizontalAlignment="Left" Margin="197,285,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="ActivityGroup" x:Name="Intake4" Content="If you are very active (hard exercise 6-7 days/week)" HorizontalAlignment="Left" Margin="197,315,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="OutputBox" HorizontalAlignment="Left" Margin="504,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="172" Width="201"/>
+        <TextBox x:Name="HeightInput" HorizontalAlignment="Left" Height="23" Margin="186,35,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Height (in.)" HorizontalAlignment="Left" Margin="80,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="Weight (lbs.)" HorizontalAlignment="Left" Margin="80,63,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.046,-0.029"/>
+        <TextBox x:Name="WeightInput" HorizontalAlignment="Left" Height="23" Margin="186,66,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="80,94,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.263,-0.154"/>
+        <RadioButton GroupName="GenderRB" x:Name="MaleRB" Content="Male" HorizontalAlignment="Left" Margin="186,100,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="GenderRB" x:Name="FemaleRB"  Content="Female" HorizontalAlignment="Left" Margin="236,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.509,-1.133"/>
+        <Label Content="Age" HorizontalAlignment="Left" Margin="80,120,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.145,-0.346"/>
+        <TextBox x:Name="AgeInput" HorizontalAlignment="Left" Height="24" Margin="186,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Activity Level" HorizontalAlignment="Left" Margin="80,151,0,0" VerticalAlignment="Top"/>
+        <Button Content="Submit" Click="S_Button"  HorizontalAlignment="Left" Margin="195,351,0,0" VerticalAlignment="Top" Width="75"/>
+        <RadioButton GroupName="ActivityGroup" x:Name="Intake1" Content="If you are sedentary (little or no exercise)" HorizontalAlignment="Left" Margin="186,162,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="ActivityGroup" x:Name="Intake2" Content="If you are lightly active (light exercise or sports 1-3 days/week)" HorizontalAlignment="Left" Margin="186,182,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="ActivityGroup" x:Name="Intake3" Content="If you are moderately active (moderate exercise 3-5 days/week)" HorizontalAlignment="Left" Margin="186,202,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="ActivityGroup" x:Name="Intake4" Content="If you are very active (hard exercise 6-7 days/week)" HorizontalAlignment="Left" Margin="186,222,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="OutputBox" HorizontalAlignment="Left" Margin="566,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="361" Width="201"/>
+        <Label Content="Weight Goals" HorizontalAlignment="Left" Margin="80,249,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="WeightGoalsGroup" x:Name="Lose" Content="Lose Weight" HorizontalAlignment="Left" Margin="186,255,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="WeightGoalsGroup" x:Name="Maintain" Content="Maintain Weight" HorizontalAlignment="Left" Margin="186,275,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.514,-1.8"/>
+        <RadioButton GroupName="WeightGoalsGroup" x:Name="Gain" Content="Gain Weight" HorizontalAlignment="Left" Margin="186,295,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.44,0.867"/>
 
     </Grid>
 </Window>

@@ -35,6 +35,7 @@ namespace CalorieCalculatorWPF
             int genderBMR = 0;
             double BMR = 0;
             double caloric_intake = 0;
+            double weightGoal = 0;
 
             if (Convert.ToBoolean(MaleRB.IsChecked))
             {
@@ -68,8 +69,22 @@ namespace CalorieCalculatorWPF
                 activityLevel = 1.9;
             }
 
-            caloric_intake = BMR * activityLevel;
+            if (Convert.ToBoolean(Lose.IsChecked))
+            {
+                weightGoal = -150;
+            }
+            else if (Convert.ToBoolean(Maintain.IsChecked))
+            {
+                weightGoal = 0;
+            }
+            else 
+            {
+                weightGoal = 150;
+            }
+
+            caloric_intake = BMR * activityLevel + weightGoal;
             OutputBox.Text = $"Your daily caloric intake is {Convert.ToString(caloric_intake)}";
+            
             
 
         }
