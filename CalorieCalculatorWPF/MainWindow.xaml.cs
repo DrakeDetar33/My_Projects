@@ -37,6 +37,14 @@ namespace CalorieCalculatorWPF
             double BMR = 0;
             double caloric_intake = 0;
             double weightGoal = 0;
+            double proteinPercent = 0;
+            double carbPercent = 0;
+            double fatPercent = 0;
+            double calProtein = 0;
+            double calCarbs = 0;
+            double calFats = 0;
+            
+
 
             // Gender Radio button if Statements
             if (Convert.ToBoolean(MaleRB.IsChecked))
@@ -78,15 +86,32 @@ namespace CalorieCalculatorWPF
                 weightGoal = 150;
             }
 
+
+
             // Calculations
+            proteinPercent = Convert.ToDouble(ProteinTextBlock.Text);
+            carbPercent = Convert.ToDouble(CarbohydrateTextBlock.Text);
+            fatPercent = Convert.ToDouble(FatTextBlock.Text);
+
+
             BMR = (4.536 * weight) + (15.88 * height) - (5 * age) + genderBMR;
             caloric_intake = BMR * activityLevel + weightGoal;
+            calProtein = (0.01 * proteinPercent) * caloric_intake;
+            calCarbs = (0.01 * carbPercent) * caloric_intake;
+            calFats = (0.01 * fatPercent) * caloric_intake;
+
 
             // Output
-            OutputBox.Text = $"Your daily caloric intake is {Convert.ToString(caloric_intake)}";
-            
-            
+            OutputBox.Text = $"Your daily caloric intake is {Convert.ToString(caloric_intake)}" +
+                $"\nCalories from Protein {calProtein}" +
+                $"\nCalories from Carbohydrates {calCarbs}" +
+                $"\nCalories from Protein {calFats}";
+
+
+
 
         }
+
+
     }
 }
