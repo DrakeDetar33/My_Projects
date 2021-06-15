@@ -174,3 +174,4 @@ C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\FinalPracticeMVC\obj\Debug\
 C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\FinalPracticeMVC\obj\Debug\netcoreapp3.1\Razor\Views\Proteins\Details.cshtml.g.cs
 C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\FinalPracticeMVC\obj\Debug\netcoreapp3.1\Razor\Views\Proteins\Edit.cshtml.g.cs
 C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\FinalPracticeMVC\obj\Debug\netcoreapp3.1\Razor\Views\Proteins\Index.cshtml.g.cs
+C:\Users\Drake\source\repos\DrakeDetar33\My_Projects\FinalPracticeMVC\obj\Debug\netcoreapp3.1\FinalPracticeMVC.csproj.AssemblyReference.cache
